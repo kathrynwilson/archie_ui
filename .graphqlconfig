@@ -1,0 +1,11 @@
+{
+  "name": "Remote Schema",
+  "extensions": {
+    "endpoints": {
+      "Remote GraphQL Endpoint": {
+        "url": "${VUE_APP_ENDPOINT}",
+        "introspect": true
+      }
+    }
+  }
+}
